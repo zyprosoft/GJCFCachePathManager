@@ -3,7 +3,7 @@
 //  GJCommonFoundation
 //
 //  Created by ZYVincent on 14-11-19.
-//  Copyright (c) 2014年 ganji.com. All rights reserved.
+//  Copyright (c) 2014年 ZYProSoft. All rights reserved.
 //
 
 #import <Foundation/Foundation.h>
