@@ -1,0 +1,573 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		368A92BA1B4CA6C7000B7AF9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92B91B4CA6C7000B7AF9 /* main.m */; };
+		368A92BD1B4CA6C7000B7AF9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92BC1B4CA6C7000B7AF9 /* AppDelegate.m */; };
+		368A92BF1B4CA6C7000B7AF9 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 368A92BE1B4CA6C7000B7AF9 /* Images.xcassets */; };
+		368A92C21B4CA6C7000B7AF9 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 368A92C01B4CA6C7000B7AF9 /* LaunchScreen.xib */; };
+		368A92CE1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92CD1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.m */; };
+		368A92D91B4CA6DB000B7AF9 /* GJCFCachePathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92D81B4CA6DB000B7AF9 /* GJCFCachePathManager.m */; };
+		368A92DA1B4CA6DB000B7AF9 /* GJCFCachePathManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92D81B4CA6DB000B7AF9 /* GJCFCachePathManager.m */; };
+		368A92DC1B4CA71C000B7AF9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 368A92DB1B4CA71C000B7AF9 /* Podfile */; };
+		368A92DD1B4CA71C000B7AF9 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 368A92DB1B4CA71C000B7AF9 /* Podfile */; };
+		368A92FD1B4CAA4B000B7AF9 /* GJCFDateUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92E11B4CAA4B000B7AF9 /* GJCFDateUitil.m */; };
+		368A92FE1B4CAA4B000B7AF9 /* GJCFDateUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92E11B4CAA4B000B7AF9 /* GJCFDateUitil.m */; };
+		368A92FF1B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92E61B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m */; };
+		368A93001B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92E61B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m */; };
+		368A93011B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92ED1B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m */; };
+		368A93021B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92ED1B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m */; };
+		368A93031B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92F11B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m */; };
+		368A93041B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92F11B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m */; };
+		368A93051B4CAA4B000B7AF9 /* GJCFStringUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92F51B4CAA4B000B7AF9 /* GJCFStringUitil.m */; };
+		368A93061B4CAA4B000B7AF9 /* GJCFStringUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92F51B4CAA4B000B7AF9 /* GJCFStringUitil.m */; };
+		368A93071B4CAA4B000B7AF9 /* GJCFSystemUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92F91B4CAA4B000B7AF9 /* GJCFSystemUitil.m */; };
+		368A93081B4CAA4B000B7AF9 /* GJCFSystemUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92F91B4CAA4B000B7AF9 /* GJCFSystemUitil.m */; };
+		368A93091B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92FC1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m */; };
+		368A930A1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m in Sources */ = {isa = PBXBuildFile; fileRef = 368A92FC1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		368A92C81B4CA6C7000B7AF9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 368A92AC1B4CA6C7000B7AF9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 368A92B31B4CA6C7000B7AF9;
+			remoteInfo = GJCFCachePathManager;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		368A92B41B4CA6C7000B7AF9 /* GJCFCachePathManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GJCFCachePathManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A92B81B4CA6C7000B7AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368A92B91B4CA6C7000B7AF9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		368A92BB1B4CA6C7000B7AF9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		368A92BC1B4CA6C7000B7AF9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		368A92BE1B4CA6C7000B7AF9 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		368A92C11B4CA6C7000B7AF9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		368A92C71B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GJCFCachePathManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		368A92CC1B4CA6C7000B7AF9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		368A92CD1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GJCFCachePathManagerTests.m; sourceTree = "<group>"; };
+		368A92D71B4CA6DB000B7AF9 /* GJCFCachePathManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFCachePathManager.h; sourceTree = "<group>"; };
+		368A92D81B4CA6DB000B7AF9 /* GJCFCachePathManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFCachePathManager.m; sourceTree = "<group>"; };
+		368A92DB1B4CA71C000B7AF9 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		368A92E01B4CAA4B000B7AF9 /* GJCFDateUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDateUitil.h; sourceTree = "<group>"; };
+		368A92E11B4CAA4B000B7AF9 /* GJCFDateUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFDateUitil.m; sourceTree = "<group>"; };
+		368A92E21B4CAA4B000B7AF9 /* GJCFDateUitilMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDateUitilMacrocDefine.h; sourceTree = "<group>"; };
+		368A92E51B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDispatchCenterUitil.h; sourceTree = "<group>"; };
+		368A92E61B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFDispatchCenterUitil.m; sourceTree = "<group>"; };
+		368A92E71B4CAA4B000B7AF9 /* GJCFDispatchMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFDispatchMacrocDefine.h; sourceTree = "<group>"; };
+		368A92E81B4CAA4B000B7AF9 /* GJCFUitils.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFUitils.h; sourceTree = "<group>"; };
+		368A92EB1B4CAA4B000B7AF9 /* GJCFQuickCacheMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickCacheMacrocDefine.h; sourceTree = "<group>"; };
+		368A92EC1B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickCacheUitil.h; sourceTree = "<group>"; };
+		368A92ED1B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFQuickCacheUitil.m; sourceTree = "<group>"; };
+		368A92EF1B4CAA4B000B7AF9 /* GJCFQuickUIMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickUIMacrocDefine.h; sourceTree = "<group>"; };
+		368A92F01B4CAA4B000B7AF9 /* GJCFQuickUIUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFQuickUIUitil.h; sourceTree = "<group>"; };
+		368A92F11B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFQuickUIUitil.m; sourceTree = "<group>"; };
+		368A92F31B4CAA4B000B7AF9 /* GJCFStringMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFStringMacrocDefine.h; sourceTree = "<group>"; };
+		368A92F41B4CAA4B000B7AF9 /* GJCFStringUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFStringUitil.h; sourceTree = "<group>"; };
+		368A92F51B4CAA4B000B7AF9 /* GJCFStringUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFStringUitil.m; sourceTree = "<group>"; };
+		368A92F71B4CAA4B000B7AF9 /* GJCFSystemMacrocDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFSystemMacrocDefine.h; sourceTree = "<group>"; };
+		368A92F81B4CAA4B000B7AF9 /* GJCFSystemUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GJCFSystemUitil.h; sourceTree = "<group>"; };
+		368A92F91B4CAA4B000B7AF9 /* GJCFSystemUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GJCFSystemUitil.m; sourceTree = "<group>"; };
+		368A92FB1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+GJCFViewFrameUitil.h"; sourceTree = "<group>"; };
+		368A92FC1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+GJCFViewFrameUitil.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		368A92B11B4CA6C7000B7AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A92C41B4CA6C7000B7AF9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		368A92AB1B4CA6C7000B7AF9 = {
+			isa = PBXGroup;
+			children = (
+				368A92B61B4CA6C7000B7AF9 /* GJCFCachePathManager */,
+				368A92CA1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests */,
+				368A92B51B4CA6C7000B7AF9 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		368A92B51B4CA6C7000B7AF9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				368A92B41B4CA6C7000B7AF9 /* GJCFCachePathManager.app */,
+				368A92C71B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		368A92B61B4CA6C7000B7AF9 /* GJCFCachePathManager */ = {
+			isa = PBXGroup;
+			children = (
+				368A92DE1B4CAA4B000B7AF9 /* GJCFUitils */,
+				368A92DB1B4CA71C000B7AF9 /* Podfile */,
+				368A92D71B4CA6DB000B7AF9 /* GJCFCachePathManager.h */,
+				368A92D81B4CA6DB000B7AF9 /* GJCFCachePathManager.m */,
+				368A92BB1B4CA6C7000B7AF9 /* AppDelegate.h */,
+				368A92BC1B4CA6C7000B7AF9 /* AppDelegate.m */,
+				368A92BE1B4CA6C7000B7AF9 /* Images.xcassets */,
+				368A92C01B4CA6C7000B7AF9 /* LaunchScreen.xib */,
+				368A92B71B4CA6C7000B7AF9 /* Supporting Files */,
+			);
+			path = GJCFCachePathManager;
+			sourceTree = "<group>";
+		};
+		368A92B71B4CA6C7000B7AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368A92B81B4CA6C7000B7AF9 /* Info.plist */,
+				368A92B91B4CA6C7000B7AF9 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368A92CA1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests */ = {
+			isa = PBXGroup;
+			children = (
+				368A92CD1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.m */,
+				368A92CB1B4CA6C7000B7AF9 /* Supporting Files */,
+			);
+			path = GJCFCachePathManagerTests;
+			sourceTree = "<group>";
+		};
+		368A92CB1B4CA6C7000B7AF9 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				368A92CC1B4CA6C7000B7AF9 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		368A92DE1B4CAA4B000B7AF9 /* GJCFUitils */ = {
+			isa = PBXGroup;
+			children = (
+				368A92DF1B4CAA4B000B7AF9 /* DateUitil */,
+				368A92E31B4CAA4B000B7AF9 /* DeviceInfoUitil */,
+				368A92E41B4CAA4B000B7AF9 /* DispatchCenterUitil */,
+				368A92E81B4CAA4B000B7AF9 /* GJCFUitils.h */,
+				368A92E91B4CAA4B000B7AF9 /* KeychainUitil */,
+				368A92EA1B4CAA4B000B7AF9 /* QuickCacheUitil */,
+				368A92EE1B4CAA4B000B7AF9 /* QuickUIUitil */,
+				368A92F21B4CAA4B000B7AF9 /* StringUitil */,
+				368A92F61B4CAA4B000B7AF9 /* SystemUitil */,
+				368A92FA1B4CAA4B000B7AF9 /* UitilCategory */,
+			);
+			path = GJCFUitils;
+			sourceTree = "<group>";
+		};
+		368A92DF1B4CAA4B000B7AF9 /* DateUitil */ = {
+			isa = PBXGroup;
+			children = (
+				368A92E01B4CAA4B000B7AF9 /* GJCFDateUitil.h */,
+				368A92E11B4CAA4B000B7AF9 /* GJCFDateUitil.m */,
+				368A92E21B4CAA4B000B7AF9 /* GJCFDateUitilMacrocDefine.h */,
+			);
+			path = DateUitil;
+			sourceTree = "<group>";
+		};
+		368A92E31B4CAA4B000B7AF9 /* DeviceInfoUitil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DeviceInfoUitil;
+			sourceTree = "<group>";
+		};
+		368A92E41B4CAA4B000B7AF9 /* DispatchCenterUitil */ = {
+			isa = PBXGroup;
+			children = (
+				368A92E51B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.h */,
+				368A92E61B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m */,
+				368A92E71B4CAA4B000B7AF9 /* GJCFDispatchMacrocDefine.h */,
+			);
+			path = DispatchCenterUitil;
+			sourceTree = "<group>";
+		};
+		368A92E91B4CAA4B000B7AF9 /* KeychainUitil */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = KeychainUitil;
+			sourceTree = "<group>";
+		};
+		368A92EA1B4CAA4B000B7AF9 /* QuickCacheUitil */ = {
+			isa = PBXGroup;
+			children = (
+				368A92EB1B4CAA4B000B7AF9 /* GJCFQuickCacheMacrocDefine.h */,
+				368A92EC1B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.h */,
+				368A92ED1B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m */,
+			);
+			path = QuickCacheUitil;
+			sourceTree = "<group>";
+		};
+		368A92EE1B4CAA4B000B7AF9 /* QuickUIUitil */ = {
+			isa = PBXGroup;
+			children = (
+				368A92EF1B4CAA4B000B7AF9 /* GJCFQuickUIMacrocDefine.h */,
+				368A92F01B4CAA4B000B7AF9 /* GJCFQuickUIUitil.h */,
+				368A92F11B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m */,
+			);
+			path = QuickUIUitil;
+			sourceTree = "<group>";
+		};
+		368A92F21B4CAA4B000B7AF9 /* StringUitil */ = {
+			isa = PBXGroup;
+			children = (
+				368A92F31B4CAA4B000B7AF9 /* GJCFStringMacrocDefine.h */,
+				368A92F41B4CAA4B000B7AF9 /* GJCFStringUitil.h */,
+				368A92F51B4CAA4B000B7AF9 /* GJCFStringUitil.m */,
+			);
+			path = StringUitil;
+			sourceTree = "<group>";
+		};
+		368A92F61B4CAA4B000B7AF9 /* SystemUitil */ = {
+			isa = PBXGroup;
+			children = (
+				368A92F71B4CAA4B000B7AF9 /* GJCFSystemMacrocDefine.h */,
+				368A92F81B4CAA4B000B7AF9 /* GJCFSystemUitil.h */,
+				368A92F91B4CAA4B000B7AF9 /* GJCFSystemUitil.m */,
+			);
+			path = SystemUitil;
+			sourceTree = "<group>";
+		};
+		368A92FA1B4CAA4B000B7AF9 /* UitilCategory */ = {
+			isa = PBXGroup;
+			children = (
+				368A92FB1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.h */,
+				368A92FC1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m */,
+			);
+			path = UitilCategory;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		368A92B31B4CA6C7000B7AF9 /* GJCFCachePathManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A92D11B4CA6C7000B7AF9 /* Build configuration list for PBXNativeTarget "GJCFCachePathManager" */;
+			buildPhases = (
+				368A92B01B4CA6C7000B7AF9 /* Sources */,
+				368A92B11B4CA6C7000B7AF9 /* Frameworks */,
+				368A92B21B4CA6C7000B7AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GJCFCachePathManager;
+			productName = GJCFCachePathManager;
+			productReference = 368A92B41B4CA6C7000B7AF9 /* GJCFCachePathManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+		368A92C61B4CA6C7000B7AF9 /* GJCFCachePathManagerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 368A92D41B4CA6C7000B7AF9 /* Build configuration list for PBXNativeTarget "GJCFCachePathManagerTests" */;
+			buildPhases = (
+				368A92C31B4CA6C7000B7AF9 /* Sources */,
+				368A92C41B4CA6C7000B7AF9 /* Frameworks */,
+				368A92C51B4CA6C7000B7AF9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				368A92C91B4CA6C7000B7AF9 /* PBXTargetDependency */,
+			);
+			name = GJCFCachePathManagerTests;
+			productName = GJCFCachePathManagerTests;
+			productReference = 368A92C71B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		368A92AC1B4CA6C7000B7AF9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = ZYProSoft;
+				TargetAttributes = {
+					368A92B31B4CA6C7000B7AF9 = {
+						CreatedOnToolsVersion = 6.1;
+					};
+					368A92C61B4CA6C7000B7AF9 = {
+						CreatedOnToolsVersion = 6.1;
+						TestTargetID = 368A92B31B4CA6C7000B7AF9;
+					};
+				};
+			};
+			buildConfigurationList = 368A92AF1B4CA6C7000B7AF9 /* Build configuration list for PBXProject "GJCFCachePathManager" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 368A92AB1B4CA6C7000B7AF9;
+			productRefGroup = 368A92B51B4CA6C7000B7AF9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				368A92B31B4CA6C7000B7AF9 /* GJCFCachePathManager */,
+				368A92C61B4CA6C7000B7AF9 /* GJCFCachePathManagerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		368A92B21B4CA6C7000B7AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A92DC1B4CA71C000B7AF9 /* Podfile in Resources */,
+				368A92C21B4CA6C7000B7AF9 /* LaunchScreen.xib in Resources */,
+				368A92BF1B4CA6C7000B7AF9 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A92C51B4CA6C7000B7AF9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A92DD1B4CA71C000B7AF9 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		368A92B01B4CA6C7000B7AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A93031B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m in Sources */,
+				368A92BD1B4CA6C7000B7AF9 /* AppDelegate.m in Sources */,
+				368A92FD1B4CAA4B000B7AF9 /* GJCFDateUitil.m in Sources */,
+				368A92FF1B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m in Sources */,
+				368A93051B4CAA4B000B7AF9 /* GJCFStringUitil.m in Sources */,
+				368A92D91B4CA6DB000B7AF9 /* GJCFCachePathManager.m in Sources */,
+				368A93011B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m in Sources */,
+				368A93071B4CAA4B000B7AF9 /* GJCFSystemUitil.m in Sources */,
+				368A92BA1B4CA6C7000B7AF9 /* main.m in Sources */,
+				368A93091B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		368A92C31B4CA6C7000B7AF9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				368A92FE1B4CAA4B000B7AF9 /* GJCFDateUitil.m in Sources */,
+				368A930A1B4CAA4B000B7AF9 /* UIView+GJCFViewFrameUitil.m in Sources */,
+				368A93061B4CAA4B000B7AF9 /* GJCFStringUitil.m in Sources */,
+				368A93081B4CAA4B000B7AF9 /* GJCFSystemUitil.m in Sources */,
+				368A93041B4CAA4B000B7AF9 /* GJCFQuickUIUitil.m in Sources */,
+				368A93021B4CAA4B000B7AF9 /* GJCFQuickCacheUitil.m in Sources */,
+				368A92CE1B4CA6C7000B7AF9 /* GJCFCachePathManagerTests.m in Sources */,
+				368A93001B4CAA4B000B7AF9 /* GJCFDispatchCenterUitil.m in Sources */,
+				368A92DA1B4CA6DB000B7AF9 /* GJCFCachePathManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		368A92C91B4CA6C7000B7AF9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 368A92B31B4CA6C7000B7AF9 /* GJCFCachePathManager */;
+			targetProxy = 368A92C81B4CA6C7000B7AF9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		368A92C01B4CA6C7000B7AF9 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				368A92C11B4CA6C7000B7AF9 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		368A92CF1B4CA6C7000B7AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		368A92D01B4CA6C7000B7AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		368A92D21B4CA6C7000B7AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJCFCachePathManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		368A92D31B4CA6C7000B7AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = GJCFCachePathManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		368A92D51B4CA6C7000B7AF9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GJCFCachePathManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJCFCachePathManager.app/GJCFCachePathManager";
+			};
+			name = Debug;
+		};
+		368A92D61B4CA6C7000B7AF9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = GJCFCachePathManagerTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GJCFCachePathManager.app/GJCFCachePathManager";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		368A92AF1B4CA6C7000B7AF9 /* Build configuration list for PBXProject "GJCFCachePathManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A92CF1B4CA6C7000B7AF9 /* Debug */,
+				368A92D01B4CA6C7000B7AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		368A92D11B4CA6C7000B7AF9 /* Build configuration list for PBXNativeTarget "GJCFCachePathManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A92D21B4CA6C7000B7AF9 /* Debug */,
+				368A92D31B4CA6C7000B7AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		368A92D41B4CA6C7000B7AF9 /* Build configuration list for PBXNativeTarget "GJCFCachePathManagerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				368A92D51B4CA6C7000B7AF9 /* Debug */,
+				368A92D61B4CA6C7000B7AF9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 368A92AC1B4CA6C7000B7AF9 /* Project object */;
+}
